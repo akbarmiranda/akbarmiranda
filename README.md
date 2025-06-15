@@ -11,7 +11,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Te
 - 🔭 Atualmente trabalhando em projetos que fazem a diferença
 - 🌱 Sempre aprendendo novas tecnologias e melhores práticas
 - 💬 Adoro discutir sobre tecnologia, arquitetura de software e inovação
-- 📫 Como me encontrar: **[seu-email@exemplo.com]**
+- 📫 Como me encontrar: **[akbarmiranda@gmail.com]**
 - ⚡ Curiosidade: Acredito que o código limpo é poesia em movimento
 
 ## 🛠️ Tecnologias & Ferramentas
