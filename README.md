@@ -71,15 +71,15 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Te
 
 ```javascript
 const akbarMiranda = {
-    code: ["JavaScript", "Python", "Java", "PHP"],
+    code: ["JavaScript", "Python", "HTML", "CSS"],
     askMeAbout: ["web dev", "tech", "app dev", "problem solving"],
     technologies: {
         frontEnd: {
-            js: ["React", "Vue", "Vanilla JS"],
+            js: ["React"],
             css: ["Bootstrap", "Tailwind", "Sass"]
         },
         backEnd: {
-            js: ["Node", "Express"],
+            js: ["Node"],
             python: ["Django", "Flask"],
         
         },
