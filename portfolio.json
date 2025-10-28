@@ -1,0 +1,106 @@
+[
+  {
+    "id": "proj001",
+    "category": "E-commerce",
+    "name": "FreshMart",
+    "description": "Mercearia online com catálogo de produtos, filtros por categoria e integração com WhatsApp para pedidos.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "E-commerce",
+      "Responsivo",
+      "JSON"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj002",
+    "category": "Imobiliária",
+    "name": "PropertiaBR",
+    "description": "Site para corretora de imóveis com filtros avançados, detalhes de propriedades e formulário de contato.",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Imóveis",
+      "Filtros",
+      "SEO"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj003",
+    "category": "Estética",
+    "name": "BeautyStudio",
+    "description": "Site para estúdio de beleza com design em cascata, cards rotacionados e agendamento online.",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Estética",
+      "Design Único",
+      "Animações"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj004",
+    "category": "Saúde",
+    "name": "DentalCare",
+    "description": "Clínica odontológica com sidebar minimalista, lista de tratamentos e sistema de agendamento.",
+    "image": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Saúde",
+      "Sidebar",
+      "Profissional"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj005",
+    "category": "Gastronomia",
+    "name": "Sabor & Arte",
+    "description": "Restaurante com carrossel interativo de pratos, sistema de reservas e design elegante.",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Restaurante",
+      "Carrossel",
+      "Reservas"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj006",
+    "category": "Moda",
+    "name": "UrbanStyle",
+    "description": "Loja de roupas com layout mosaico tipo Pinterest, filtros de produtos e visual moderno.",
+    "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Moda",
+      "Masonry",
+      "E-commerce"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj007",
+    "category": "Fitness",
+    "name": "FitPower",
+    "description": "Academia com timeline vertical de programas, apresentação de treinadores e sistema de matrículas.",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Academia",
+      "Timeline",
+      "Storytelling"
+    ],
+    "link": ""
+  },
+  {
+    "id": "proj008",
+    "category": "Educação",
+    "name": "EduTech",
+    "description": "Plataforma de cursos online com área de membros, vídeo-aulas e certificados digitais.",
+    "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "tags": [
+      "Educação",
+      "LMS",
+      "Vídeos"
+    ],
+    "link": ""
+  }
+]
