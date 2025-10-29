@@ -313,13 +313,28 @@ section {
   gap: 2.5rem;
 }
 
+/* Indicador visual de que é clicável */
+.portfolio-item[style*='cursor: pointer']::after {
+  content: '🔗';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.portfolio-item[style*='cursor: pointer']:hover::after {
+  opacity: 1;
+}
+
 .portfolio-item {
   background: white;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  cursor: pointer;
+  position: relative;
 }
 
 .portfolio-item:hover {
@@ -371,7 +386,12 @@ section {
   font-size: 0.85rem;
   font-weight: 600;
 }
-
+.portfolio-link {
+  color: red;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+}
 /* SKILLS */
 .skills-grid {
   display: grid;
