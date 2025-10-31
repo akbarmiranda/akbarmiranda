@@ -1,1 +1,382 @@
-const a0_0x188825=a0_0x1846;(function(_0x4d3832,_0x4b0123){const _0xf59b77=a0_0x1846,_0x2df06b=_0x4d3832();while(!![]){try{const _0x4d89ea=parseInt(_0xf59b77(0x149))/0x1+parseInt(_0xf59b77(0x17b))/0x2*(parseInt(_0xf59b77(0x193))/0x3)+parseInt(_0xf59b77(0x12d))/0x4+-parseInt(_0xf59b77(0x17e))/0x5*(parseInt(_0xf59b77(0x162))/0x6)+-parseInt(_0xf59b77(0x198))/0x7+parseInt(_0xf59b77(0x186))/0x8+-parseInt(_0xf59b77(0x197))/0x9*(parseInt(_0xf59b77(0x15f))/0xa);if(_0x4d89ea===_0x4b0123)break;else _0x2df06b['push'](_0x2df06b['shift']());}catch(_0x39d87){_0x2df06b['push'](_0x2df06b['shift']());}}}(a0_0xc811,0x41491));const fallbackPortfolio=[{'id':a0_0x188825(0x167),'category':a0_0x188825(0x137),'name':a0_0x188825(0x15a),'description':a0_0x188825(0x152),'image':'https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80','tags':[a0_0x188825(0x137),'Responsivo',a0_0x188825(0x157)],'link':''},{'id':a0_0x188825(0x14e),'category':a0_0x188825(0x16c),'name':'PropertiaBR','description':'Site\x20para\x20corretora\x20de\x20imóveis\x20com\x20filtros\x20avançados\x20e\x20detalhes\x20de\x20propriedades.','image':a0_0x188825(0x112),'tags':['Imóveis',a0_0x188825(0x11c),'SEO'],'link':''},{'id':a0_0x188825(0x17a),'category':a0_0x188825(0x18a),'name':a0_0x188825(0x128),'description':a0_0x188825(0x18f),'image':a0_0x188825(0x13a),'tags':['Estética','Design\x20Único',a0_0x188825(0x142)],'link':''}],fallbackTestimonials=[{'id':a0_0x188825(0x115),'name':a0_0x188825(0x12b),'role':a0_0x188825(0x181),'rating':0x5,'text':a0_0x188825(0x113),'image':a0_0x188825(0x13f)},{'id':a0_0x188825(0x117),'name':a0_0x188825(0x191),'role':a0_0x188825(0x144),'rating':0x5,'text':a0_0x188825(0x170),'image':a0_0x188825(0x151)},{'id':a0_0x188825(0x166),'name':'Ana\x20Beatriz','role':a0_0x188825(0x16d),'rating':0x5,'text':'Melhor\x20investimento\x20que\x20fiz\x20para\x20meu\x20negócio.\x20Site\x20lindo\x20e\x20funcional.\x20Recomendo\x20de\x20olhos\x20fechados!','image':a0_0x188825(0x164)}];let portfolio=[],testimonials=[];async function loadPortfolio(){const _0x46d0ec=a0_0x188825;try{const _0x144dee=await fetch(_0x46d0ec(0x189));if(!_0x144dee['ok'])throw new Error(_0x46d0ec(0x184)+_0x144dee[_0x46d0ec(0x114)]);portfolio=await _0x144dee['json'](),console[_0x46d0ec(0x126)]('✅\x20'+portfolio[_0x46d0ec(0x15d)]+_0x46d0ec(0x145));}catch(_0x55e216){console[_0x46d0ec(0x14c)](_0x46d0ec(0x153),_0x55e216[_0x46d0ec(0x195)]),portfolio=fallbackPortfolio;}renderPortfolio();}function renderPortfolio(){const _0x182703=a0_0x188825,_0x5ade86=document[_0x182703(0x121)](_0x182703(0x187));if(portfolio[_0x182703(0x15d)]===0x0){_0x5ade86[_0x182703(0x16e)]=_0x182703(0x11f);return;}_0x5ade86[_0x182703(0x16e)]='',portfolio[_0x182703(0x176)]((_0x57c2c9,_0x39a744)=>{const _0x25d814=_0x182703,_0x20d156=document[_0x25d814(0x154)](_0x25d814(0x163));_0x20d156[_0x25d814(0x123)]['add'](_0x25d814(0x183),'fade-in'),_0x20d156[_0x25d814(0x13d)][_0x25d814(0x13c)]=_0x39a744*0.1+'s';const _0x1ebc3f=_0x57c2c9[_0x25d814(0x16f)]['map'](_0x4f23a1=>_0x25d814(0x17f)+_0x4f23a1+_0x25d814(0x199))[_0x25d814(0x119)]('');_0x20d156[_0x25d814(0x16e)]=_0x25d814(0x147)+_0x57c2c9[_0x25d814(0x140)]+_0x25d814(0x155)+_0x57c2c9[_0x25d814(0x143)]+_0x25d814(0x150)+_0x57c2c9['category']+_0x25d814(0x17c)+_0x57c2c9[_0x25d814(0x143)]+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>'+_0x57c2c9[_0x25d814(0x129)]+_0x25d814(0x13b)+_0x1ebc3f+_0x25d814(0x120),_0x57c2c9[_0x25d814(0x131)]?(_0x20d156[_0x25d814(0x13d)]['cursor']='pointer',_0x20d156[_0x25d814(0x194)]('click',function(){const _0xd63df1=_0x25d814;window[_0xd63df1(0x111)](_0x57c2c9[_0xd63df1(0x131)],'_blank');})):_0x20d156[_0x25d814(0x13d)]['cursor']=_0x25d814(0x188),_0x5ade86[_0x25d814(0x110)](_0x20d156);});}async function loadTestimonials(){const _0x1687eb=a0_0x188825;try{const _0x25ae5d=await fetch('testimonials.json');if(!_0x25ae5d['ok'])throw new Error(_0x1687eb(0x184)+_0x25ae5d[_0x1687eb(0x114)]);testimonials=await _0x25ae5d[_0x1687eb(0x15b)](),console['log']('✅\x20'+testimonials[_0x1687eb(0x15d)]+_0x1687eb(0x196));}catch(_0x3e7f4a){console[_0x1687eb(0x14c)]('⚠️\x20Usando\x20dados\x20de\x20fallback\x20para\x20depoimentos:',_0x3e7f4a[_0x1687eb(0x195)]),testimonials=fallbackTestimonials;}renderTestimonials();}function renderTestimonials(){const _0x2d04d6=a0_0x188825,_0x31930d=document[_0x2d04d6(0x121)]('testimonialsGrid');if(testimonials['length']===0x0){_0x31930d[_0x2d04d6(0x16e)]='<div\x20class=\x22loading\x22>Nenhum\x20depoimento\x20encontrado.</div>';return;}_0x31930d[_0x2d04d6(0x16e)]='',testimonials['forEach']((_0x5c23ed,_0x57fbd5)=>{const _0x5203e3=_0x2d04d6,_0x516391=document['createElement'](_0x5203e3(0x163));_0x516391[_0x5203e3(0x123)][_0x5203e3(0x12a)](_0x5203e3(0x178),_0x5203e3(0x168)),_0x516391['style'][_0x5203e3(0x13c)]=_0x57fbd5*0.1+'s';const _0x12ed2a='⭐'[_0x5203e3(0x190)](_0x5c23ed['rating']);_0x516391[_0x5203e3(0x16e)]=_0x5203e3(0x159)+_0x12ed2a+_0x5203e3(0x139)+_0x5c23ed[_0x5203e3(0x132)]+_0x5203e3(0x158)+_0x5c23ed[_0x5203e3(0x143)]+_0x5203e3(0x18d)+_0x5c23ed[_0x5203e3(0x18c)]+_0x5203e3(0x11e),_0x31930d[_0x5203e3(0x110)](_0x516391);});}function a0_0x1846(_0x4ad190,_0x21331b){const _0xc811ec=a0_0xc811();return a0_0x1846=function(_0x1846f5,_0x27e570){_0x1846f5=_0x1846f5-0x110;let _0x339cdf=_0xc811ec[_0x1846f5];return _0x339cdf;},a0_0x1846(_0x4ad190,_0x21331b);}function initContactForm(){const _0x6b1dc8=a0_0x188825,_0x11fc70=document[_0x6b1dc8(0x121)](_0x6b1dc8(0x146));if(_0x11fc70){_0x11fc70[_0x6b1dc8(0x194)]('submit',async function(_0x53e970){const _0x18c9bc=_0x6b1dc8;_0x53e970[_0x18c9bc(0x172)]();const _0x3d65a3=document[_0x18c9bc(0x121)](_0x18c9bc(0x143))[_0x18c9bc(0x175)][_0x18c9bc(0x13e)](),_0x5d9bdf=document[_0x18c9bc(0x121)](_0x18c9bc(0x12f))[_0x18c9bc(0x175)][_0x18c9bc(0x13e)](),_0x583506=document[_0x18c9bc(0x121)]('message')['value']['trim']();if(!_0x3d65a3||!_0x5d9bdf||!_0x583506){alert('❌\x20Por\x20favor,\x20preencha\x20todos\x20os\x20campos\x20obrigatórios.');return;}if(!_0x5d9bdf['includes']('@')||!_0x5d9bdf[_0x18c9bc(0x180)]('.')){alert(_0x18c9bc(0x160));return;}const _0x3a053e=_0x11fc70[_0x18c9bc(0x15c)](_0x18c9bc(0x12e)),_0x5e07b7=_0x3a053e['textContent'];_0x3a053e[_0x18c9bc(0x12c)]=_0x18c9bc(0x15e),_0x3a053e['disabled']=!![];try{const _0x5a7d28=_0x11fc70[_0x18c9bc(0x14f)](_0x18c9bc(0x174)),_0x339a8f=!_0x5a7d28||_0x5a7d28['includes']('SEU_ENDPOINT_AQUI');if(_0x339a8f)await new Promise(_0x1e3e48=>setTimeout(_0x1e3e48,0x7d0)),alert(_0x18c9bc(0x116)+_0x3d65a3+_0x18c9bc(0x17d)+_0x5d9bdf+_0x18c9bc(0x133)),_0x11fc70[_0x18c9bc(0x14b)]();else{const _0x3ff3f1=new FormData(_0x11fc70),_0x2095c7=await fetch(_0x5a7d28,{'method':_0x18c9bc(0x125),'body':_0x3ff3f1,'headers':{'Accept':_0x18c9bc(0x130)}});if(_0x2095c7['ok'])alert(_0x18c9bc(0x135)),_0x11fc70[_0x18c9bc(0x14b)]();else throw new Error(_0x18c9bc(0x177));}}catch(_0x359eea){alert(_0x18c9bc(0x182)+_0x359eea[_0x18c9bc(0x195)]);}finally{_0x3a053e[_0x18c9bc(0x12c)]=_0x5e07b7,_0x3a053e[_0x18c9bc(0x11d)]=![];}});const _0x23a086=_0x11fc70[_0x6b1dc8(0x18e)](_0x6b1dc8(0x16b));_0x23a086[_0x6b1dc8(0x176)](_0x5b7b9f=>{_0x5b7b9f['addEventListener']('blur',function(){const _0x1f0e31=a0_0x1846;if(this[_0x1f0e31(0x14a)](_0x1f0e31(0x138))&&!this[_0x1f0e31(0x175)][_0x1f0e31(0x13e)]())this['style'][_0x1f0e31(0x173)]=_0x1f0e31(0x179);else this['type']===_0x1f0e31(0x12f)&&this[_0x1f0e31(0x175)]&&(!this[_0x1f0e31(0x175)]['includes']('@')||!this[_0x1f0e31(0x175)][_0x1f0e31(0x180)]('.'))?this['style'][_0x1f0e31(0x173)]=_0x1f0e31(0x179):this[_0x1f0e31(0x13d)][_0x1f0e31(0x173)]=_0x1f0e31(0x127);});});}}function a0_0xc811(){const _0x291be2=['includes','Proprietária\x20-\x20FreshMart','❌\x20Erro:\x20','portfolio-item','Erro\x20HTTP:\x20','offsetHeight','3588320pzJgNX','portfolioGrid','default','portfolio.json','Estética','scroll','role','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span>','querySelectorAll','Site\x20para\x20estúdio\x20de\x20beleza\x20com\x20design\x20em\x20cascata\x20e\x20agendamento\x20online.','repeat','Dr.\x20Carlos\x20Mendes','input','25362piWvFP','addEventListener','message','\x20depoimentos\x20carregados!','6915681HqTKTI','1442056nKWHmr','</span>','($1)\x20$2-$3','appendChild','open','https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80','Site\x20ficou\x20incrível!\x20Minhas\x20vendas\x20online\x20aumentaram\x20300%\x20em\x202\x20meses.\x20O\x20Akbar\x20é\x20muito\x20profissional\x20e\x20atencioso.','status','test001','✅\x20Mensagem\x20enviada\x20com\x20sucesso!\x0a\x0aNome:\x20','test002','phone','join','isIntersecting','active','Filtros','disabled','</span>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','<div\x20class=\x22loading\x22>Nenhum\x20projeto\x20encontrado.</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','getElementById','0px\x200px\x20-50px\x200px','classList','click','POST','log','#e0e0e0','BeautyStudio','description','add','Maria\x20Silva','textContent','1951448KArIhH','button[type=\x22submit\x22]','email','application/json','link','text','\x0a\x0a⚠️\x20Para\x20enviar\x20emails\x20reais,\x20configure\x20seu\x20endpoint\x20do\x20Formspree.','.service-card,\x20.stat-card,\x20.skill-card','✅\x20Mensagem\x20enviada\x20com\x20sucesso!\x0a\x0aEntraremos\x20em\x20contato\x20em\x20breve!','offsetTop','E-commerce','required','</div>\x0a\x20\x20\x20\x20\x20\x20<p>\x22','https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22portfolio-tags\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','animationDelay','style','trim','https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80','image','observe','Animações','name','Dentista\x20-\x20DentalCare','\x20projetos\x20carregados!','contactForm','\x0a\x20\x20\x20\x20\x20\x20<img\x20src=\x22','DOMContentLoaded','328339RBFxeb','hasAttribute','reset','warn','.nav-link','proj002','getAttribute','\x22\x20loading=\x22lazy\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22portfolio-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22portfolio-category\x22>','https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80','Mercearia\x20online\x20com\x20catálogo\x20de\x20produtos,\x20filtros\x20por\x20categoria\x20e\x20integração\x20com\x20WhatsApp.','⚠️\x20Usando\x20dados\x20de\x20fallback\x20para\x20portfólio:','createElement','\x22\x20alt=\x22','replace','JSON','\x22</p>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22testimonial-author\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>','\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22stars\x22>','FreshMart','json','querySelector','length','📤\x20Enviando...','10bRKscL','❌\x20Por\x20favor,\x20insira\x20um\x20e-mail\x20válido.','smooth','30TDNieS','div','https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80','href','test003','proj001','fade-in','target','start','input,\x20textarea','Imobiliária','Personal\x20Trainer\x20-\x20FitPower','innerHTML','tags','Profissional,\x20rápido\x20e\x20atencioso.\x20Superou\x20todas\x20as\x20expectativas!\x20O\x20site\x20trouxe\x20muitos\x20novos\x20pacientes.','a[href^=\x22#\x22]','preventDefault','borderColor','action','value','forEach','Erro\x20ao\x20enviar','testimonial-card','#ff6b6b','proj003','120WgnUGj','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h3>','\x0aEmail:\x20','530155lJgFib','<span\x20class=\x22tag\x22>'];a0_0xc811=function(){return _0x291be2;};return a0_0xc811();}document['addEventListener'](a0_0x188825(0x148),function(){const _0x4ef982=a0_0x188825,_0x563701=document['getElementById'](_0x4ef982(0x118));_0x563701&&_0x563701['addEventListener'](_0x4ef982(0x192),function(_0x1b7d2e){const _0x2d0216=_0x4ef982;let _0x528b16=_0x1b7d2e[_0x2d0216(0x169)][_0x2d0216(0x175)][_0x2d0216(0x156)](/\D/g,'');_0x528b16['length']>0x0&&(_0x528b16[_0x2d0216(0x15d)]<=0xa?_0x528b16=_0x528b16['replace'](/(\d{2})(\d{4})(\d{4})/,_0x2d0216(0x19a)):_0x528b16=_0x528b16['replace'](/(\d{2})(\d{5})(\d{4})/,_0x2d0216(0x19a))),_0x1b7d2e[_0x2d0216(0x169)][_0x2d0216(0x175)]=_0x528b16;});}),document[a0_0x188825(0x18e)](a0_0x188825(0x171))[a0_0x188825(0x176)](_0x4e744b=>{const _0x33d727=a0_0x188825;_0x4e744b[_0x33d727(0x194)](_0x33d727(0x124),function(_0x5db613){const _0x39582e=_0x33d727;_0x5db613[_0x39582e(0x172)]();const _0x8ccc37=this[_0x39582e(0x14f)](_0x39582e(0x165));if(_0x8ccc37==='#')return;const _0x10779e=document[_0x39582e(0x15c)](_0x8ccc37);_0x10779e&&(_0x10779e['scrollIntoView']({'behavior':_0x39582e(0x161),'block':_0x39582e(0x16a)}),document[_0x39582e(0x18e)]('.nav-link')[_0x39582e(0x176)](_0x5ea09a=>{const _0x599df2=_0x39582e;_0x5ea09a[_0x599df2(0x123)]['remove'](_0x599df2(0x11b));}),this['classList']['add'](_0x39582e(0x11b)));});}),window[a0_0x188825(0x194)](a0_0x188825(0x18b),function(){const _0x307e2d=a0_0x188825,_0xaad825=document[_0x307e2d(0x18e)]('section[id]'),_0x3797f0=window['pageYOffset'];_0xaad825[_0x307e2d(0x176)](_0x17edb2=>{const _0x55fdfd=_0x307e2d,_0x1b0bb4=_0x17edb2[_0x55fdfd(0x185)],_0x7745a1=_0x17edb2[_0x55fdfd(0x136)]-0x64,_0x2d7a87=_0x17edb2['getAttribute']('id');_0x3797f0>_0x7745a1&&_0x3797f0<=_0x7745a1+_0x1b0bb4&&document[_0x55fdfd(0x18e)](_0x55fdfd(0x14d))[_0x55fdfd(0x176)](_0x2fbbab=>{const _0x9bd59b=_0x55fdfd;_0x2fbbab[_0x9bd59b(0x123)]['remove']('active'),_0x2fbbab['getAttribute'](_0x9bd59b(0x165))==='#'+_0x2d7a87&&_0x2fbbab[_0x9bd59b(0x123)][_0x9bd59b(0x12a)](_0x9bd59b(0x11b));});});}),document[a0_0x188825(0x194)](a0_0x188825(0x148),function(){const _0x3ddb55=a0_0x188825;loadPortfolio(),loadTestimonials(),initContactForm();const _0x58becd={'threshold':0.1,'rootMargin':_0x3ddb55(0x122)},_0x186520=new IntersectionObserver(_0x319d3c=>{const _0x5c3956=_0x3ddb55;_0x319d3c[_0x5c3956(0x176)](_0x5c1742=>{const _0x4a14dd=_0x5c3956;_0x5c1742[_0x4a14dd(0x11a)]&&_0x5c1742[_0x4a14dd(0x169)]['classList']['add'](_0x4a14dd(0x168));});},_0x58becd);document[_0x3ddb55(0x18e)](_0x3ddb55(0x134))[_0x3ddb55(0x176)](_0x1fed0b=>{const _0x1e5bb5=_0x3ddb55;_0x186520[_0x1e5bb5(0x141)](_0x1fed0b);});});
+// === DADOS DE FALLBACK ===
+const fallbackPortfolio = [
+  {
+    id: 'proj001',
+    category: 'E-commerce',
+    name: 'FreshMart',
+    description:
+      'Mercearia online com catálogo de produtos, filtros por categoria e integração com WhatsApp.',
+    image:
+      'https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    tags: ['E-commerce', 'Responsivo', 'JSON'],
+    link: '',
+  },
+  {
+    id: 'proj002',
+    category: 'Imobiliária',
+    name: 'PropertiaBR',
+    description:
+      'Site para corretora de imóveis com filtros avançados e detalhes de propriedades.',
+    image:
+      'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    tags: ['Imóveis', 'Filtros', 'SEO'],
+    link: '',
+  },
+  {
+    id: 'proj003',
+    category: 'Estética',
+    name: 'BeautyStudio',
+    description:
+      'Site para estúdio de beleza com design em cascata e agendamento online.',
+    image:
+      'https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    tags: ['Estética', 'Design Único', 'Animações'],
+    link: '',
+  },
+];
+
+const fallbackTestimonials = [
+  {
+    id: 'test001',
+    name: 'Maria Silva',
+    role: 'Proprietária - FreshMart',
+    rating: 5,
+    text: 'Site ficou incrível! Minhas vendas online aumentaram 300% em 2 meses. O Akbar é muito profissional e atencioso.',
+    image:
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 'test002',
+    name: 'Dr. Carlos Mendes',
+    role: 'Dentista - DentalCare',
+    rating: 5,
+    text: 'Profissional, rápido e atencioso. Superou todas as expectativas! O site trouxe muitos novos pacientes.',
+    image:
+      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 'test003',
+    name: 'Ana Beatriz',
+    role: 'Personal Trainer - FitPower',
+    rating: 5,
+    text: 'Melhor investimento que fiz para meu negócio. Site lindo e funcional. Recomendo de olhos fechados!',
+    image:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80',
+  },
+];
+
+let portfolio = [];
+let testimonials = [];
+
+// === CARREGAR PORTFÓLIO ===
+async function loadPortfolio() {
+  try {
+    const response = await fetch('portfolio.json');
+
+    if (!response.ok) {
+      throw new Error(`Erro HTTP: ${response.status}`);
+    }
+
+    portfolio = await response.json();
+    console.log(`✅ ${portfolio.length} projetos carregados!`);
+  } catch (error) {
+    console.warn('⚠️ Usando dados de fallback para portfólio:', error.message);
+    portfolio = fallbackPortfolio;
+  }
+
+  renderPortfolio();
+}
+
+function renderPortfolio() {
+  const grid = document.getElementById('portfolioGrid');
+
+  if (portfolio.length === 0) {
+    grid.innerHTML = '<div class="loading">Nenhum projeto encontrado.</div>';
+    return;
+  }
+
+  grid.innerHTML = '';
+
+  portfolio.forEach((project, index) => {
+    const item = document.createElement('div');
+    item.classList.add('portfolio-item', 'fade-in');
+    item.style.animationDelay = `${index * 0.1}s`;
+
+    const tagsHtml = project.tags
+      .map(tag => `<span class="tag">${tag}</span>`)
+      .join('');
+
+    item.innerHTML = `
+      <img src="${project.image}" alt="${project.name}" loading="lazy">
+      <div class="portfolio-info">
+        <div class="portfolio-category">${project.category}</div>
+        <h3>${project.name}</h3>
+        <p>${project.description}</p>
+        <div class="portfolio-tags">
+          ${tagsHtml}
+        </div>
+      </div>
+    `;
+
+    // Adicionar evento de clique no card inteiro
+    if (project.link) {
+      item.style.cursor = 'pointer';
+      item.addEventListener('click', function () {
+        window.open(project.link, '_blank');
+      });
+    } else {
+      item.style.cursor = 'default';
+    }
+
+    grid.appendChild(item);
+  });
+}
+
+// === CARREGAR DEPOIMENTOS ===
+async function loadTestimonials() {
+  try {
+    const response = await fetch('testimonials.json');
+
+    if (!response.ok) {
+      throw new Error(`Erro HTTP: ${response.status}`);
+    }
+
+    testimonials = await response.json();
+    console.log(`✅ ${testimonials.length} depoimentos carregados!`);
+  } catch (error) {
+    console.warn(
+      '⚠️ Usando dados de fallback para depoimentos:',
+      error.message
+    );
+    testimonials = fallbackTestimonials;
+  }
+
+  renderTestimonials();
+}
+
+function renderTestimonials() {
+  const grid = document.getElementById('testimonialsGrid');
+
+  if (testimonials.length === 0) {
+    grid.innerHTML = '<div class="loading">Nenhum depoimento encontrado.</div>';
+    return;
+  }
+
+  grid.innerHTML = '';
+
+  testimonials.forEach((testimonial, index) => {
+    const item = document.createElement('div');
+    item.classList.add('testimonial-card', 'fade-in');
+    item.style.animationDelay = `${index * 0.1}s`;
+
+    const starsHtml = '⭐'.repeat(testimonial.rating);
+
+    item.innerHTML = `
+      <div class="stars">${starsHtml}</div>
+      <p>"${testimonial.text}"</p>
+      <div class="testimonial-author">
+        <strong>${testimonial.name}</strong>
+        <span>${testimonial.role}</span>
+      </div>
+    `;
+
+    grid.appendChild(item);
+  });
+}
+
+// === FORMULÁRIO DE CONTATO ===
+function initContactForm() {
+  const form = document.getElementById('contactForm');
+  if (form) {
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        alert('❌ Por favor, preencha todos os campos obrigatórios.');
+        return;
+      }
+
+      if (!email.includes('@') || !email.includes('.')) {
+        alert('❌ Por favor, insira um e-mail válido.');
+        return;
+      }
+
+      const button = form.querySelector('button[type="submit"]');
+      const originalText = button.textContent;
+      button.textContent = '📤 Enviando...';
+      button.disabled = true;
+
+      try {
+        const formAction = form.getAttribute('action');
+        const isDemoMode =
+          !formAction || formAction.includes('SEU_ENDPOINT_AQUI');
+
+        if (isDemoMode) {
+          await new Promise(resolve => setTimeout(resolve, 2000));
+          alert(
+            `✅ Mensagem enviada com sucesso!\n\nNome: ${name}\nEmail: ${email}\n\n⚠️ Para enviar emails reais, configure seu endpoint do Formspree.`
+          );
+          form.reset();
+        } else {
+          const formData = new FormData(form);
+          const response = await fetch(formAction, {
+            method: 'POST',
+            body: formData,
+            headers: { Accept: 'application/json' },
+          });
+
+          if (response.ok) {
+            alert(
+              '✅ Mensagem enviada com sucesso!\n\nEntraremos em contato em breve!'
+            );
+            form.reset();
+          } else {
+            throw new Error('Erro ao enviar');
+          }
+        }
+      } catch (error) {
+        alert(`❌ Erro: ${error.message}`);
+      } finally {
+        button.textContent = originalText;
+        button.disabled = false;
+      }
+    });
+
+    const inputs = form.querySelectorAll('input, textarea');
+    inputs.forEach(input => {
+      input.addEventListener('blur', function () {
+        if (this.hasAttribute('required') && !this.value.trim()) {
+          this.style.borderColor = '#ff6b6b';
+        } else if (
+          this.type === 'email' &&
+          this.value &&
+          (!this.value.includes('@') || !this.value.includes('.'))
+        ) {
+          this.style.borderColor = '#ff6b6b';
+        } else {
+          this.style.borderColor = '#e0e0e0';
+        }
+      });
+    });
+  }
+}
+
+// === MÁSCARA DE TELEFONE ===
+document.addEventListener('DOMContentLoaded', function () {
+  const phoneInput = document.getElementById('phone');
+  if (phoneInput) {
+    phoneInput.addEventListener('input', function (e) {
+      let value = e.target.value.replace(/\D/g, '');
+      if (value.length > 0) {
+        if (value.length <= 10) {
+          value = value.replace(/(\d{2})(\d{4})(\d{4})/, '($1) $2-$3');
+        } else {
+          value = value.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
+        }
+      }
+      e.target.value = value;
+    });
+  }
+});
+
+// === NAVEGAÇÃO SUAVE ===
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    if (targetId === '#') return;
+
+    const target = document.querySelector(targetId);
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+
+      // Atualiza link ativo
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+      });
+      this.classList.add('active');
+    }
+  });
+});
+
+// === SCROLL SPY (atualiza menu ao rolar) ===
+window.addEventListener('scroll', function () {
+  const sections = document.querySelectorAll('section[id]');
+  const scrollY = window.pageYOffset;
+
+  sections.forEach(section => {
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 100;
+    const sectionId = section.getAttribute('id');
+
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${sectionId}`) {
+          link.classList.add('active');
+        }
+      });
+    }
+  });
+});
+
+// === BOTÃO VOLTAR AO TOPO ===
+function initBackToTop() {
+  const backToTopButton = document.getElementById('backToTop');
+
+  if (!backToTopButton) return;
+
+  // Mostrar/esconder botão ao rolar
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 300) {
+      backToTopButton.classList.add('show');
+    } else {
+      backToTopButton.classList.remove('show');
+    }
+  });
+
+  // Voltar ao topo ao clicar
+  backToTopButton.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
+}
+
+// === INICIALIZAÇÃO ===
+document.addEventListener('DOMContentLoaded', function () {
+  loadPortfolio();
+  loadTestimonials();
+  initContactForm();
+  initBackToTop();
+
+  // Observer para animações
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px',
+  };
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('fade-in');
+      }
+    });
+  }, observerOptions);
+
+  // Observa elementos para animação
+  document
+    .querySelectorAll('.service-card, .stat-card, .skill-card')
+    .forEach(el => {
+      observer.observe(el);
+    });
+});
